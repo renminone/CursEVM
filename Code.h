@@ -73,6 +73,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "PUSH добавлена в код" << endl;
             break;
         case '2':
             if (n == 0)
@@ -95,6 +96,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "POP добавлена в код" << endl;
             break;
         case '3':
             if (n == 0)
@@ -117,6 +119,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "ADD добавлена в код" << endl;
             break;
         case '4':
             if (n == 0)
@@ -139,6 +142,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "SUB добавлена в код" << endl;
             break;
         case '5':
             if (n == 0)
@@ -161,6 +165,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "DIV добавлена в код" << endl;
             break;
         case '6':
             if (n == 0)
@@ -183,6 +188,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "MUL добавлена в код" << endl;
             break;
         case '7':
             if (n == 0)
@@ -205,6 +211,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "ENTER добавлена в код" << endl;
             break;
         case '8':
             if (n == 0)
@@ -227,6 +234,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "TEST добавлена в код" << endl;
             break;
         case '9':
             if (n == 0)
@@ -249,6 +257,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "PRINT добавлена в код" << endl;
             break;
         case '-':
             if (n == 0)
@@ -271,6 +280,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "RAM добавлена в код" << endl;
             break;
         case '0':
             if (n == 0)
@@ -293,6 +303,7 @@ void codekeep::coding()
                 for (int i = 0; i < n; i++)
                     code[i] = reserve[i];
             }
+            cout << endl << "EXIT добавлена в код" << endl;
             break;
         case '=': l = 0; break;
         }
